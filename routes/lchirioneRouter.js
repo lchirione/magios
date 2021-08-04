@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 
 // GET home page
-router.get('/', (req, res) => {
-    res.render('index', {title: "Magioos | Agencia de Marketing Digital"});
+router.get('/lchirione', (req, res) => {
+    res.render('portfolio/lc', {title: "Lucas Chirione"});
 });
 
 module.exports = router;
